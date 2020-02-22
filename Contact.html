@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contact.css">
+    <script defer src="./js/contact.js"></script>
+    <title>Contact</title>
+
+</head>
+<body>
+    <nav>
+        <label class="logo">Fawad Akram</label>
+        <ul>
+            
+            <li><a href="./Home.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a class="active" href="./Contact.html">Contact</a></li>
+            
+
+
+        </ul>
+    </nav>
+  
+ <div class="Contact-container" id="error">
+     
+    <div class="border"></div>
+    <form id="form" class="contact-form" onsubmit="return checkforblank()">
+        <input id="name" type="text" class="contact-form-text" placeholder="Name">
+        <input type="email" class="contact-form-text" placeholder="Email Address">
+        <input type="Phone" class="contact-form-text" placeholder="Phone Number">
+        <textarea class="contact-form-text" placeholder="Message"></textarea>
+         <input type="Submit" class="contact-form-btn" value="Send">
+    </form>
+
+ </div>
+
+
+    
+</body>
+</html>
